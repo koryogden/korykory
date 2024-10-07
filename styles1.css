@@ -47,12 +47,23 @@ section {
 h1 {
     animation: glow 1.5s infinite alternate; /* Pulsing glow for the main title */
     color: #00cc00; /* Darker neon green for main title */
-    text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc; /* Adjust glow without filling */
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00cc00; /* Adjust glow for better clarity */
+    font-size: 2.5rem; /* Increase size for better visibility */
+    margin-bottom: 20px; /* Space below the title */
 }
 
 h2 {
     color: #00cc00; /* Darker neon green for headings */
-    text-shadow: 0 0 5px #00ffcc; /* Glowing effect */
+    text-shadow: 0 0 5px #00ffcc, 0 0 10px #00cc00; /* Reduced glow for better clarity */
+    font-size: 1.8rem; /* Increase size for better visibility */
+    margin: 15px 0; /* Margin for spacing */
+}
+
+h3, h4, h5, h6 {
+    color: #00cc00; /* Darker neon green for subheadings */
+    text-shadow: none; /* No glow for subheadings for clarity */
+    font-size: 1.5rem; /* Size for subheadings */
+    margin: 10px 0; /* Margin for spacing */
 }
 
 .project {
