@@ -54,7 +54,6 @@ section {
 
 h2 {
     color: #00cc00; /* Darker neon green for headings */
-    text-shadow: 0 0 3px #00ffcc; /* Minimal glowing effect */
 }
 
 .project {
@@ -109,14 +108,4 @@ footer {
     box-shadow: 0 -2px 5px rgba(0, 255, 204, 0.3); /* Minimal glowing effect */
 }
 
-@keyframes glow {
-    0% { text-shadow: 0 0 3px #00ffcc, 0 0 5px #00ffcc, 0 0 8px #00cc00; }
-    50% { text-shadow: 0 0 5px #00ffcc, 0 0 8px #00ffcc, 0 0 12px #00cc00; }
-    100% { text-shadow: 0 0 3px #00ffcc, 0 0 5px #00ffcc, 0 0 8px #00cc00; }
-}
-
-h1 {
-    animation: glow 1.5s infinite alternate; /* Pulsing glow for the main title */
-}
-
-}
+/* Remove glow keyframes since we no longer need them */
