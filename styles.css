@@ -12,6 +12,7 @@ header {
     background: rgba(0, 0, 0, 0.8); /* Semi-transparent header */
     color: #5A4FCF; /* Royal gothic purple text */
     padding: 20px 0;
+    text-align: center; /* Center-align header text */
 }
 
 h1 {
@@ -21,32 +22,13 @@ h1 {
     -webkit-font-smoothing: antialiased; /* For better anti-aliasing on webkit browsers */
     -moz-osx-font-smoothing: grayscale; /* For better anti-aliasing on Firefox */
     margin: 0; /* Remove default margin */
-    text-shadow: 0 0 10px #5A4FCF, 0 0 20px #5A4FCF; /* Glowing effect in royal gothic purple */
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav a {
-    color: #5A4FCF; /* Royal gothic purple links */
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-nav a:hover {
-    color: #4B3FAF; /* Darker royal gothic purple on hover */
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000; /* Glowing effect in blood red */
 }
 
 section {
-    padding: 40px 20px;
+    padding: 20px;
     margin: 20px 0;
+    border: 2px solid #5A4FCF; /* Add a box around sections with royal gothic purple border */
     border-radius: 10px;
     background: rgba(34, 34, 34, 0.8); /* Darker background for sections */
 }
@@ -60,49 +42,10 @@ h2 {
     margin: 15px 0;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-label {
-    margin-top: 10px;
-    color: #5A4FCF; /* Royal gothic purple for labels */
-}
-
-input, textarea {
-    padding: 10px;
-    margin-top: 5px;
-    border: 2px solid #5A4FCF; /* Royal gothic purple border */
-    border-radius: 5px;
-    background-color: #1a1a1a; /* Matching dark background */
-    color: #e0e0e0; /* Light text */
-    transition: border-color 0.3s ease;
-}
-
-input:focus, textarea:focus {
-    border-color: #4B3FAF; /* Darker royal gothic purple on focus */
-    outline: none; /* Remove default outline */
-}
-
-button {
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #5A4FCF; /* Royal gothic purple button */
-    color: #1a1a1a; /* Dark text */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #4B3FAF; /* Darker royal gothic purple on hover */
-}
-
 footer {
     text-align: center;
     padding: 20px 0;
     background: rgba(0, 0, 0, 0.8); /* Semi-transparent footer */
     color: #5A4FCF; /* Royal gothic purple text */
 }
+
