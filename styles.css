@@ -27,7 +27,7 @@ h1 {
     -webkit-font-smoothing: antialiased; /* For better anti-aliasing on webkit browsers */
     -moz-osx-font-smoothing: grayscale; /* For better anti-aliasing on Firefox */
     margin: 0; /* Remove default margin */
-    text-shadow: 0 0 10px silver, 0 0 20px silver; /* Silver glowing effect */
+    text-shadow: 0 0 5px silver, 0 0 10px silver; /* Silver glowing effect */
     outline: 1px solid black; /* Thin black outline for the name */
 }
 
