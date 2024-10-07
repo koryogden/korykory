@@ -12,7 +12,7 @@ header {
     background: rgba(0, 0, 0, 0.8); /* Semi-transparent header */
     color: #5A4FCF; /* Royal gothic purple text */
     padding: 20px 0;
-    text-align: center; /* Center-align header text */
+    text-align: center;
 }
 
 h1 {
@@ -22,13 +22,33 @@ h1 {
     -webkit-font-smoothing: antialiased; /* For better anti-aliasing on webkit browsers */
     -moz-osx-font-smoothing: grayscale; /* For better anti-aliasing on Firefox */
     margin: 0; /* Remove default margin */
-    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000; /* Glowing effect in blood red */
+    text-shadow: 0 0 10px silver, 0 0 20px silver; /* Silver glowing effect */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #5A4FCF; /* Royal gothic purple links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #3f3f3f; /* Darker gray on hover */
 }
 
 section {
-    padding: 20px;
+    padding: 40px 20px;
     margin: 20px 0;
-    border: 2px solid #5A4FCF; /* Add a box around sections with royal gothic purple border */
+    border: 2px solid #5A4FCF; /* Royal gothic purple border */
     border-radius: 10px;
     background: rgba(34, 34, 34, 0.8); /* Darker background for sections */
 }
@@ -40,6 +60,72 @@ h2 {
 
 .project {
     margin: 15px 0;
+    padding: 15px;
+    border: 2px solid #5A4FCF; /* Royal gothic purple border for projects */
+    background: rgba(34, 34, 34, 0.5); /* Darker background for projects */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+.project:hover {
+    background: rgba(34, 34, 34, 0.6); /* Darker on hover */
+}
+
+#skills ul {
+    padding: 0;
+}
+
+#skills li {
+    margin: 5px 0;
+    padding: 5px;
+    border: 2px solid #5A4FCF; /* Royal gothic purple border for skills */
+    border-radius: 5px; /* Rounded corners */
+    background: rgba(34, 34, 34, 0.5); /* Darker background for skills */
+    transition: background-color 0.3s ease;
+}
+
+#skills li:hover {
+    background: rgba(34, 34, 34, 0.6); /* Darker on hover */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #5A4FCF; /* Royal gothic purple for labels */
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #5A4FCF; /* Royal gothic purple border */
+    border-radius: 5px;
+    background-color: #1a1a1a; /* Matching dark background */
+    color: #e0e0e0; /* Light text */
+    transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #3f3f3f; /* Darker gray on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #5A4FCF; /* Royal gothic purple button */
+    color: #1a1a1a; /* Dark text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3f3f3f; /* Darker gray on hover */
 }
 
 footer {
