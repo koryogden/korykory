@@ -13,15 +13,15 @@ header {
     color: #ff0000; /* Blood red text */
     padding: 20px 0;
     text-align: center;
-    box-shadow: 0 0 5px #ff0000; /* Minimal glowing effect in blood red */
 }
 
 h1 {
-    font-size: 2.5em; /* Increase font size for better visibility */
-    letter-spacing: 1px; /* Add spacing between letters for a sharper look */
+    font-size: 3em; /* Increased font size for visibility */
+    letter-spacing: 1px; /* Spacing between letters */
     text-rendering: optimizeLegibility; /* Improve text rendering */
     -webkit-font-smoothing: antialiased; /* For better anti-aliasing on webkit browsers */
     -moz-osx-font-smoothing: grayscale; /* For better anti-aliasing on Firefox */
+    margin: 0; /* Remove default margin */
 }
 
 nav ul {
@@ -49,11 +49,11 @@ section {
     margin: 20px 0;
     border-radius: 10px;
     background: rgba(34, 34, 34, 0.8); /* Darker background for sections */
-    box-shadow: 0 0 10px rgba(255, 0, 0, 0.3); /* Soft glowing effect in blood red */
 }
 
 h2 {
     color: #ff0000; /* Blood red for headings */
+    margin-top: 0; /* Remove margin at the top */
 }
 
 .project {
@@ -105,5 +105,4 @@ footer {
     padding: 20px 0;
     background: rgba(0, 0, 0, 0.8); /* Semi-transparent footer */
     color: #ff0000; /* Blood red text */
-    box-shadow: 0 -2px 5px rgba(255, 0, 0, 0.3); /* Minimal glowing effect in blood red */
 }
