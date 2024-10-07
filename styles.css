@@ -23,6 +23,7 @@ h1 {
     -moz-osx-font-smoothing: grayscale; /* For better anti-aliasing on Firefox */
     margin: 0; /* Remove default margin */
     text-shadow: 0 0 10px silver, 0 0 20px silver; /* Silver glowing effect */
+    outline: 1px solid black; /* Thin black outline for the name */
 }
 
 nav ul {
@@ -78,8 +79,6 @@ h2 {
 #skills li {
     margin: 5px 0;
     padding: 5px;
-    border: 2px solid #5A4FCF; /* Royal gothic purple border for skills */
-    border-radius: 5px; /* Rounded corners */
     background: rgba(34, 34, 34, 0.5); /* Darker background for skills */
     transition: background-color 0.3s ease;
 }
