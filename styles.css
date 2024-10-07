@@ -13,7 +13,7 @@ header {
     color: #00ffcc; /* Neon cyan text */
     padding: 20px 0;
     text-align: center;
-    box-shadow: 0 0 10px #00ffcc; /* Glowing effect */
+    box-shadow: 0 0 5px #00ffcc; /* Minimal glowing effect */
 }
 
 nav ul {
@@ -41,29 +41,12 @@ section {
     margin: 20px 0;
     border-radius: 10px;
     background: rgba(34, 34, 34, 0.8); /* Darker background for sections */
-    box-shadow: 0 0 15px rgba(0, 255, 204, 0.6); /* Soft glowing effect */
-}
-
-h1 {
-    animation: glow 1.5s infinite alternate; /* Pulsing glow for the main title */
-    color: #00cc00; /* Darker neon green for main title */
-    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00cc00; /* Adjust glow for better clarity */
-    font-size: 2.5rem; /* Increase size for better visibility */
-    margin-bottom: 20px; /* Space below the title */
+    box-shadow: 0 0 10px rgba(0, 255, 204, 0.3); /* Soft glowing effect */
 }
 
 h2 {
     color: #00cc00; /* Darker neon green for headings */
-    text-shadow: 0 0 5px #00ffcc, 0 0 10px #00cc00; /* Reduced glow for better clarity */
-    font-size: 1.8rem; /* Increase size for better visibility */
-    margin: 15px 0; /* Margin for spacing */
-}
-
-h3, h4, h5, h6 {
-    color: #00cc00; /* Darker neon green for subheadings */
-    text-shadow: none; /* No glow for subheadings for clarity */
-    font-size: 1.5rem; /* Size for subheadings */
-    margin: 10px 0; /* Margin for spacing */
+    text-shadow: 0 0 3px #00ffcc; /* Minimal glowing effect */
 }
 
 .project {
@@ -115,12 +98,15 @@ footer {
     padding: 20px 0;
     background: rgba(0, 0, 0, 0.8); /* Semi-transparent footer */
     color: #00ffcc; /* Neon cyan text */
-    box-shadow: 0 -2px 10px rgba(0, 255, 204, 0.6); /* Glowing effect */
+    box-shadow: 0 -2px 5px rgba(0, 255, 204, 0.3); /* Minimal glowing effect */
 }
 
 @keyframes glow {
-    0% { text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc, 0 0 15px #00cc00, 0 0 20px #00cc00; }
-    50% { text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00cc00, 0 0 40px #00cc00; }
-    100% { text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc, 0 0 15px #00cc00, 0 0 20px #00cc00; }
+    0% { text-shadow: 0 0 3px #00ffcc, 0 0 5px #00ffcc, 0 0 8px #00cc00; }
+    50% { text-shadow: 0 0 5px #00ffcc, 0 0 8px #00ffcc, 0 0 12px #00cc00; }
+    100% { text-shadow: 0 0 3px #00ffcc, 0 0 5px #00ffcc, 0 0 8px #00cc00; }
 }
 
+h1 {
+    animation: glow 1.5s infinite alternate; /* Pulsing glow for the main title */
+}
