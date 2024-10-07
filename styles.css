@@ -1,6 +1,6 @@
 body {
     font-family: 'Orbitron', sans-serif; /* A futuristic font */
-    background-color: #2b2d2f; /* Dark background */
+    background-color: #1b1e2c; /* Dark blue background */
     color: #e0e0e0; /* Light gray text for readability */
     line-height: 1.6;
     margin: 0;
@@ -9,8 +9,8 @@ body {
 }
 
 header {
-    background: rgba(30, 30, 40, 0.8); /* Darker background */
-    color: #9b59b6; /* Light purple text */
+    background: rgba(25, 25, 38, 0.8); /* Darker background */
+    color: #a29bdb; /* Light purple text */
     padding: 20px 0;
     text-align: center;
 }
@@ -37,25 +37,25 @@ nav ul li {
 }
 
 nav a {
-    color: #9b59b6; /* Light purple links */
+    color: #a29bdb; /* Light purple links */
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #8e44ad; /* Darker purple on hover */
+    color: #6c5ce7; /* Darker purple on hover */
 }
 
 section {
     padding: 40px 20px;
     margin: 20px 0;
-    border: 2px solid #8e44ad; /* Darker purple border */
+    border: 2px solid #6c5ce7; /* Darker purple border */
     border-radius: 10px;
     background: rgba(34, 34, 34, 0.8); /* Darker background for sections */
 }
 
 h2 {
-    color: #9b59b6; /* Light purple for headings */
+    color: #a29bdb; /* Light purple for headings */
     margin-top: 0; /* Remove margin at the top */
     font-size: 2.5em; /* Increased font size for section headers */
 }
@@ -63,7 +63,7 @@ h2 {
 .project {
     margin: 15px 0;
     padding: 15px;
-    border: 2px solid #8e44ad; /* Darker purple border for projects */
+    border: 2px solid #6c5ce7; /* Darker purple border for projects */
     background: rgba(34, 34, 34, 0.5); /* Darker background for projects */
     border-radius: 5px; /* Rounded corners */
     transition: background-color 0.3s ease;
@@ -95,28 +95,28 @@ form {
 
 label {
     margin-top: 10px;
-    color: #9b59b6; /* Light purple for labels */
+    color: #a29bdb; /* Light purple for labels */
 }
 
 input, textarea {
     padding: 10px;
     margin-top: 5px;
-    border: 2px solid #9b59b6; /* Light purple border */
+    border: 2px solid #a29bdb; /* Light purple border */
     border-radius: 5px;
-    background-color: #2b2d2f; /* Matching dark background */
+    background-color: #1b1e2c; /* Matching dark background */
     color: #e0e0e0; /* Light text */
     transition: border-color 0.3s ease;
 }
 
 input:focus, textarea:focus {
-    border-color: #8e44ad; /* Darker purple on focus */
+    border-color: #6c5ce7; /* Darker purple on focus */
     outline: none; /* Remove default outline */
 }
 
 button {
     margin-top: 10px;
     padding: 10px;
-    background-color: #9b59b6; /* Light purple button */
+    background-color: #a29bdb; /* Light purple button */
     color: #1a1a1a; /* Dark text */
     border: none;
     border-radius: 5px;
@@ -125,12 +125,12 @@ button {
 }
 
 button:hover {
-    background-color: #8e44ad; /* Darker purple on hover */
+    background-color: #6c5ce7; /* Darker purple on hover */
 }
 
 footer {
     text-align: center;
     padding: 20px 0;
     background: rgba(0, 0, 0, 0.8); /* Semi-transparent footer */
-    color: #9b59b6; /* Light purple text */
+    color: #a29bdb; /* Light purple text */
 }
