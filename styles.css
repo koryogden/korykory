@@ -25,7 +25,6 @@ h1 {
     text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000; /* Glowing effect in blood red */
 }
 
-
 nav ul {
     list-style: none;
     padding: 0;
@@ -60,6 +59,30 @@ h2 {
 
 .project {
     margin: 15px 0;
+    padding: 15px;
+    background: rgba(255, 0, 0, 0.1); /* Light blood red background for projects */
+    border-left: 5px solid #ff0000; /* Blood red left border */
+    transition: background-color 0.3s ease;
+}
+
+.project:hover {
+    background: rgba(255, 0, 0, 0.2); /* Darker on hover */
+}
+
+#skills ul {
+    padding: 0;
+}
+
+#skills li {
+    margin: 5px 0;
+    padding: 5px;
+    background: rgba(255, 0, 0, 0.1); /* Light blood red background for skills */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+#skills li:hover {
+    background: rgba(255, 0, 0, 0.2); /* Darker on hover */
 }
 
 form {
