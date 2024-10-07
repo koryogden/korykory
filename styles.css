@@ -16,6 +16,14 @@ header {
     box-shadow: 0 0 5px #00ffcc; /* Minimal glowing effect */
 }
 
+h1 {
+    font-size: 2.5em; /* Increase font size for better visibility */
+    letter-spacing: 1px; /* Add spacing between letters for a sharper look */
+    text-rendering: optimizeLegibility; /* Improve text rendering */
+    -webkit-font-smoothing: antialiased; /* For better anti-aliasing on webkit browsers */
+    -moz-osx-font-smoothing: grayscale; /* For better anti-aliasing on Firefox */
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -109,4 +117,6 @@ footer {
 
 h1 {
     animation: glow 1.5s infinite alternate; /* Pulsing glow for the main title */
+}
+
 }
