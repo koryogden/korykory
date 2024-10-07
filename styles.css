@@ -1,52 +1,112 @@
 body {
-    background-color: #0c0c0c; /* Dark background */
-    color: #00ff00; /* Neon green text */
-    font-family: 'Courier New', Courier, monospace; /* Monospace font for a cyberpunk feel */
-}
-
-h1, h2, h3 {
-    text-shadow: 
-        0 0 10px rgba(0, 255, 0, 0.8), /* Reduced glow */
-        0 0 20px rgba(0, 255, 0, 0.6); /* Reduced glow */
-}
-
-a {
-    color: #00ff00; /* Neon green links */
-    text-decoration: none; /* Remove underline */
-    text-shadow: 
-        0 0 10px rgba(0, 255, 0, 0.8), /* Reduced glow */
-        0 0 20px rgba(0, 255, 0, 0.6); /* Reduced glow */
-}
-
-a:hover {
-    text-shadow: 
-        0 0 20px rgba(0, 255, 0, 1), /* Brighter glow on hover */
-        0 0 40px rgba(0, 255, 0, 0.8); /* Brighter glow on hover */
+    font-family: 'Orbitron', sans-serif; /* A futuristic font */
+    background-color: #1a1a1a; /* Dark background */
+    color: #e0e0e0; /* Light gray text for readability */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 header {
-    background: rgba(0, 0, 0, 0.8); /* Semi-transparent dark background */
-    padding: 20px;
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent header */
+    color: #00ffcc; /* Neon cyan text */
+    padding: 20px 0;
     text-align: center;
+    box-shadow: 0 0 5px #00ffcc; /* Reduced glowing effect */
 }
 
-footer {
-    background: rgba(0, 0, 0, 0.8); /* Semi-transparent dark background */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #00ffcc; /* Neon cyan links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #00cc00; /* Darker neon green on hover */
+}
+
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background: rgba(34, 34, 34, 0.8); /* Darker background for sections */
+    box-shadow: 0 0 10px rgba(0, 255, 204, 0.4); /* Reduced glowing effect */
+}
+
+h2 {
+    color: #00cc00; /* Darker neon green for headings */
+    text-shadow: 0 0 3px #00ffcc, 0 0 5px #00cc00; /* Reduced glowing effect */
+}
+
+.project {
+    margin: 15px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #00ffcc; /* Neon cyan for labels */
+}
+
+input, textarea {
     padding: 10px;
-    text-align: center;
+    margin-top: 5px;
+    border: 2px solid #00ffcc; /* Neon border */
+    border-radius: 5px;
+    background-color: #1a1a1a; /* Matching dark background */
+    color: #e0e0e0; /* Light text */
+    transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #00cc00; /* Change border color to darker neon green on focus */
+    outline: none; /* Remove default outline */
 }
 
 button {
-    background-color: #00ff00; /* Neon green button */
-    color: black; /* Text color for button */
-    border: none; /* No border */
-    padding: 10px 20px; /* Padding for button */
-    cursor: pointer; /* Pointer cursor on hover */
-    text-shadow: none; /* No shadow for button text */
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #00ffcc; /* Neon cyan button */
+    color: #1a1a1a; /* Dark text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #00cc00; /* Darker green on hover */
+    background-color: #00cc00; /* Darker neon green on hover */
 }
 
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent footer */
+    color: #00ffcc; /* Neon cyan text */
+    box-shadow: 0 -2px 5px rgba(0, 255, 204, 0.4); /* Reduced glowing effect */
+}
+
+@keyframes glow {
+    0% { text-shadow: 0 0 3px #00ffcc, 0 0 5px #00cc00; }
+    50% { text-shadow: 0 0 5px #00ffcc, 0 0 10px #00cc00; }
+    100% { text-shadow: 0 0 3px #00ffcc, 0 0 5px #00cc00; }
+}
+
+h1 {
+    animation: glow 1.5s infinite alternate; /* Pulsing glow for the main title */
 }
