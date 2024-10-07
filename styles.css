@@ -10,10 +10,10 @@ body {
 
 header {
     background: rgba(0, 0, 0, 0.8); /* Semi-transparent header */
-    color: #00ffcc; /* Neon cyan text */
+    color: #ff0000; /* Blood red text */
     padding: 20px 0;
     text-align: center;
-    box-shadow: 0 0 5px #00ffcc; /* Minimal glowing effect */
+    box-shadow: 0 0 5px #ff0000; /* Minimal glowing effect in blood red */
 }
 
 h1 {
@@ -35,13 +35,13 @@ nav ul li {
 }
 
 nav a {
-    color: #00ffcc; /* Neon cyan links */
+    color: #ff0000; /* Blood red links */
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #00cc00; /* Darker neon green on hover */
+    color: #990000; /* Darker blood red on hover */
 }
 
 section {
@@ -49,11 +49,11 @@ section {
     margin: 20px 0;
     border-radius: 10px;
     background: rgba(34, 34, 34, 0.8); /* Darker background for sections */
-    box-shadow: 0 0 10px rgba(0, 255, 204, 0.3); /* Soft glowing effect */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.3); /* Soft glowing effect in blood red */
 }
 
 h2 {
-    color: #00cc00; /* Darker neon green for headings */
+    color: #ff0000; /* Blood red for headings */
 }
 
 .project {
@@ -67,13 +67,13 @@ form {
 
 label {
     margin-top: 10px;
-    color: #00ffcc; /* Neon cyan for labels */
+    color: #ff0000; /* Blood red for labels */
 }
 
 input, textarea {
     padding: 10px;
     margin-top: 5px;
-    border: 2px solid #00ffcc; /* Neon border */
+    border: 2px solid #ff0000; /* Blood red border */
     border-radius: 5px;
     background-color: #1a1a1a; /* Matching dark background */
     color: #e0e0e0; /* Light text */
@@ -81,14 +81,14 @@ input, textarea {
 }
 
 input:focus, textarea:focus {
-    border-color: #00cc00; /* Change border color to darker neon green on focus */
+    border-color: #990000; /* Darker blood red on focus */
     outline: none; /* Remove default outline */
 }
 
 button {
     margin-top: 10px;
     padding: 10px;
-    background-color: #00ffcc; /* Neon cyan button */
+    background-color: #ff0000; /* Blood red button */
     color: #1a1a1a; /* Dark text */
     border: none;
     border-radius: 5px;
@@ -97,15 +97,13 @@ button {
 }
 
 button:hover {
-    background-color: #00cc00; /* Darker neon green on hover */
+    background-color: #990000; /* Darker blood red on hover */
 }
 
 footer {
     text-align: center;
     padding: 20px 0;
     background: rgba(0, 0, 0, 0.8); /* Semi-transparent footer */
-    color: #00ffcc; /* Neon cyan text */
-    box-shadow: 0 -2px 5px rgba(0, 255, 204, 0.3); /* Minimal glowing effect */
+    color: #ff0000; /* Blood red text */
+    box-shadow: 0 -2px 5px rgba(255, 0, 0, 0.3); /* Minimal glowing effect in blood red */
 }
-
-/* Remove glow keyframes since we no longer need them */
