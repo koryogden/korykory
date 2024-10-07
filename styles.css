@@ -15,6 +15,11 @@ header {
     text-align: center;
 }
 
+header h1, /* Targeting the name */
+section h2 { /* Targeting section headers */
+    color: #5B5EA6; /* Slightly grayish indigo blue */
+}
+
 h1 {
     font-size: 3em; /* Increased font size for visibility */
     letter-spacing: 1px; /* Spacing between letters */
@@ -55,7 +60,7 @@ section {
 }
 
 h2 {
-    color: #a29bdb; /* Light purple for headings */
+    color: #5B5EA6; /* Slightly grayish indigo blue for headings */
     margin-top: 0; /* Remove margin at the top */
     font-size: 2.5em; /* Increased font size for section headers */
 }
