@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotional Landscapes Library</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet"> <!-- Adding Orbitron font -->
+    <link rel="stylesheet" href="styles.css"> <!-- Ensure your CSS file is linked correctly -->
+    <style>
+        /* Include your CSS styles here */
+        body {
+            font-family: 'Orbitron', sans-serif; /* A futuristic font */
+            background-color: #1b1e2c; /* Dark blue background */
+            color: #e0e0e0; /* Light gray text for readability */
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+        }
+
+        header {
+            background: rgba(25, 25, 38, 0.8); /* Darker background */
+            color: #4B5B9D; /* Slightly darker and more blue grayish indigo blue */
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1, /* Targeting the name */
+        section h2 { /* Targeting section headers */
+            color: #5B5EA6; /* Slightly grayish indigo blue */
+        }
+
+        h1 {
+            font-size: 3em; /* Increased font size for visibility */
+            letter-spacing: 1px; /* Spacing between letters */
+            text-rendering: optimizeLegibility; /* Improve text rendering */
+            -webkit-font-smoothing: antialiased; /* For better anti-aliasing on webkit browsers */
+            -moz-osx-font-smoothing: grayscale; /* For better anti-aliasing on Firefox */
+            margin: 0; /* Remove default margin */
+            text-shadow: 0 0 5px silver, 0 0 10px silver; /* Silver glowing effect */
+            outline: 1px solid black; /* Thin black outline for the name */
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: #a29bdb; /* Light purple links */
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #6c5ce7; /* Darker purple on hover */
+        }
+
+        section {
+            padding: 40px 20px;
+            margin: 20px 0;
+            border: 2px solid #6c5ce7; /* Darker purple border */
+            border-radius: 10px;
+            background: rgba(34, 34, 34, 0.8); /* Darker background for sections */
+        }
+
+        h2 {
+            color: #5B5EA6; /* Slightly grayish indigo blue for headings */
+            margin-top: 0; /* Remove margin at the top */
+            font-size: 2.5em; /* Increased font size for section headers */
+        }
+
+        .project {
+            margin: 15px 0;
+            padding: 15px;
+            border: 2px solid #6c5ce7; /* Darker purple border for projects */
+            background: rgba(34, 34, 34, 0.5); /* Darker background for projects */
+            border-radius: 5px; /* Rounded corners */
+            transition: background-color 0.3s ease;
+        }
+
+        .project:hover {
+            background: rgba(34, 34, 34, 0.6); /* Darker on hover */
+        }
+
+        #skills ul {
+            padding: 0;
+        }
+
+        #skills li {
+            margin: 5px 0;
+            padding: 5px;
+            background: rgba(34, 34, 34, 0.5); /* Darker background for skills */
+            transition: background-color 0.3s ease;
+        }
+
+        #skills li:hover {
+            background: rgba(34, 34, 34, 0.6); /* Darker on hover */
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-top: 10px;
+            color: #a29bdb; /* Light purple for labels */
+        }
+
+        input, textarea {
+            padding: 10px;
+            margin-top: 5px;
+            border: 2px solid #a29bdb; /* Light purple border */
+            border-radius: 5px;
+            background-color: #1b1e2c; /* Matching dark background */
+            color: #e0e0e0; /* Light text */
+            transition: border-color 0.3s ease;
+        }
+
+        input:focus, textarea:focus {
+            border-color: #6c5ce7; /* Darker purple on focus */
+            outline: none; /* Remove default outline */
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #a29bdb; /* Light purple button */
+            color: #1a1a1a; /* Dark text */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #6c5ce7; /* Darker purple on hover */
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: rgba(0, 0, 0, 0.8); /* Semi-transparent footer */
+            color: #a29bdb; /* Light purple text */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Emotional Landscapes Library</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> <!-- Assuming your main page is index.html -->
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Emotional Landscapes</h2>
+
+        <div class="project">
+            <img src="landscape_angerpassion.png" alt="Intensity of Passion as a Storm" style="max-width: 100%; height: auto;">
+            <p>This image captures the intensity of passion through a stormy landscape, with turbulent waves and chaotic skies.</p>
+        </div>
+
+        <div class="project">
+            <img src="landscape_example1.jpg" alt="Example Landscape 1" style="max-width: 100%; height: auto;">
+            <p>Description of Example Landscape 1.</p>
+        </div>
+
+        <div class="project">
+            <img src="landscape_example2.jpg" alt="Example Landscape 2" style="max-width: 100%; height: auto;">
+            <p>Description of Example Landscape 2.</p>
+        </div>
+
+        <div class="project">
+            <img src="serene_mountains.png" alt="Serene Mountains Landscape" style="max-width: 100%; height: auto;">
+            <p>This image conveys a sense of calm and tranquility through a peaceful mountain landscape, reflecting the serenity of nature.</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+</body>
+</html>
